@@ -1,0 +1,105 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196F3;
+  --primary-bg-color: #FFFFFF;
+}
+
+
+body {
+    background-color: #fff;
+    color: var(--primary-text-color);
+}
+
+/* цвет основного текста  #212121 */
+/* цвет вторичного текста  #757575 */
+/* акцент #2196F3 */
+ /*вторичный #F5F4FA; */
+
+ /* .list {
+    list-style: none    --убрать точки из списка  */
+
+ .accent {
+     color: var(--accent-color) ;
+ }
+ .accenttwo{
+     color: var(--title-text-color)
+ }
+
+ /* sita-nav */
+ .site-nav .link {
+     color: var(--title-text-color);
+ }
+
+ .site-nav .link:hover,
+ .site-nav .link:focus{
+     color: var(--accent-color);
+ }
+
+ .site-nav .link.current {
+     color: var(--accent-color);
+ }
+
+ .auth-nav .link{
+     color: var(--primary-text-color);
+ }
+
+ .auth-nav .link:hover,
+ .auth-nav .link:focus{
+     color: var(--accent-color);
+ }
+  
+ /* hero  */
+ .hero .hero-title{
+     color: #FFFFFF;;
+ }
+
+ .section-title {
+     color: var(--title-text-color);
+ }
+ .section-text {
+     color: var(--primary-text-color);
+ }
+
+ .works {
+     color: var(--title-text-color);
+ }
+
+ .works-title {
+     color: #FFFFFF;
+ }
+ .comand-title {
+     color: var(--title-text-color);
+ }
+
+ /* button */
+ .button {
+     color: #FFFFFF;
+     background-color: var(--accent-color);
+     font-size: 24px;
+     padding: 12px 24px;
+     display: inline-block;
+     border-color: transparent;
+ }
+
+ .logo-title {
+     color: #AFB1B8;
+ }
+
+ .logo-title :hover,
+ .logo-title :hover {
+     color: var(--accent-color);
+ }
+
+ .cellar {
+     color: #2F303A;
+ }
+
+.cellar-title{
+    color:var(--primary-bg-color) ;
+}
+
+.cellar-exile{
+    color:#FFFFFF99 ;
+}
+ /* Стили для Портфолио */
