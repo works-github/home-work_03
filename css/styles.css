@@ -9,6 +9,7 @@
 body {
     background-color: #fff;
     color: var(--primary-text-color);
+   
 }
 
 /* цвет основного текста  #212121 */
@@ -102,4 +103,7 @@ body {
 .cellar-exile{
     color:#FFFFFF99 ;
 }
- /* Стили для Портфолио */
+
+
+ 
+/*Стили для Портфолио */
