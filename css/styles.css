@@ -88,7 +88,7 @@ body {
  }
 
  .logo-title :hover,
- .logo-title :hover {
+ .logo-title :active {
      color: var(--accent-color);
  }
 
@@ -105,5 +105,10 @@ body {
 }
 
 
+.button-secondary {
+    color: var(--title-text-color);
+
+}
  
+
 /*Стили для Портфолио */
