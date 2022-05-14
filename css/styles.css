@@ -21,7 +21,7 @@ a {
 body {
   background-color: #ffffff;
   color: var(--primary-text-color);
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
   font-size: 14px;
 }
 
@@ -33,20 +33,25 @@ body {
 .logo {
   color: var(--title-text-color);
   font-family: 'Raleway';
-  font-style: normal;
+  /* font-style: normal; */
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
 }
 
 .accent {
   color: var(--accent-color);
 }
 
-/* sita-nav */
-.site-nav .link {
+.link {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
+
+/* sita-nav */
 
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -65,38 +70,124 @@ body {
 .auth-nav .link:focus {
   color: var(--accent-color);
 }
-
-/* hero  */
-.hero .hero-title {
+.button-studio {
   color: #ffffff;
-}
-
-.section-title {
-  color: var(--title-text-color);
-}
-.section-text {
-  /* color: var(--primary-text-color); */
-}
-
-.works {
-  color: var(--title-text-color);
-}
-
-.works-title {
-  color: #ffffff;
-}
-.comand-title {
-  color: var(--title-text-color);
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 00.06em;
+  display: inline-block;
+  border-color: transparent;
+  text-align: center;
 }
 
 /* button */
 .button {
   color: #ffffff;
   background-color: var(--accent-color);
-  font-size: 24px;
-  padding: 12px 24px;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
   display: inline-block;
   border-color: transparent;
+  text-align: center;
+}
+
+/* hero  */
+.hero .hero-title {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+
+.section-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+.section-text {
+  /* color: var(--primary-text-color); */
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.section-portfolio {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.section-text {
+  color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+
+.works {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.works-title {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.command-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+h3 {
+  color: var(--title-text-color);
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.clients {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-align: center;
 }
 
 .logo-title {
@@ -114,16 +205,34 @@ body {
 
 .cellar-title {
   color: var(--primary-bg-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .cellar-exile {
-  /* color:#FFFFFF99 ; */
-  /* color: rgb(255, 255, 255); */
   color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
-.button-secondary {
-  color: var(--title-text-color);
+.cellar-mail {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+}
+
+b {
+  color: var(--primary-bg-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
 }
 
 /*Стили для Портфолио */
